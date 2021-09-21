@@ -31,7 +31,7 @@ cat<< EOF
               ''''             {___                                        
            	
 EOF
-echo -e $r"   	Coded BY$c::::::::::$r["NoOAYe:AKB"]"
+echo -e $r"   	Coded BY$c::::::::::$r["AhmedBalaha:"]"
 echo -e $r"        Verison$c::::::::::$r["1.0"]"
 echo -e $g "       01010101010101010101"
 echo -e $g "       Start Attack Wpa2 > Using STRIK METHOD >> 010101"
